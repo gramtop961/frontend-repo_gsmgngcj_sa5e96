@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Header from './components/Header';
+import Hero from './components/Hero';
 import AQICard from './components/AQICard';
 import Comparison from './components/Comparison';
 import Advisory from './components/Advisory';
@@ -62,6 +63,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
       <Header />
+      <Hero />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <section className="grid grid-cols-1 lg:grid-cols-5 gap-6">
